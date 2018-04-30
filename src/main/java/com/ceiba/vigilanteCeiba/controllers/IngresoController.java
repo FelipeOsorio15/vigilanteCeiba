@@ -42,6 +42,9 @@ public class IngresoController {
 		if (ingreso.getPlaca() == null) {
 			isValid = false;
 		}
+		if (ingreso.getMarca() == null) {
+			isValid = false;
+		}
 		return isValid;	
 	}
 }
