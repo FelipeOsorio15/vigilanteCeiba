@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller // indica que puede ser consumido desde una app externa
 public class IndexController {
 	@RequestMapping("/")
-	public String IndexPage() {
+	public String getIndexPage() {
 		return "index";
 	}
 

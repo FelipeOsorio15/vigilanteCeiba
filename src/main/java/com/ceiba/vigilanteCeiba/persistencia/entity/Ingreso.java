@@ -16,7 +16,7 @@ public class Ingreso extends ParentEntityId {
 	@Column(name = "placa", nullable = false, length=30)
 	private String placa;
 	
-	@Column(name = "placa", nullable = false, length=30)
+	@Column(name = "marca", nullable = false, length=30)
 	private String marca;
 	
 	public String getPlaca() {

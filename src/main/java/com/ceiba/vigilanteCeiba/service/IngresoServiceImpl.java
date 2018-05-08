@@ -12,7 +12,8 @@ public abstract class IngresoServiceImpl implements IngresoService {
 	@Autowired
 	protected IngresoRepository  ingresoRepository;
 	
-	@SuppressWarnings("unchecked")
+
+
 	@Override
 	public Ingreso save(Ingreso ingreso) {
 		return this.ingresoRepository.save(ingreso);

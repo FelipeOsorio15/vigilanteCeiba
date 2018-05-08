@@ -18,16 +18,18 @@ public class ParentEntityId implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO)
-	@Column(name ="idIngreso", nullable=false, unique= true)
-	private Long idIngreso;
+	@Column(name ="id", unique= true, nullable=false)
+	private Long id;
 
-	public Long getIdIngreso() {
-		return idIngreso;
+	public Long getId() {
+		return id;
 	}
 
-	public void setIdIngreso(Long idIngreso) {
-		this.idIngreso = idIngreso;
+	public void setId(Long id) {
+		this.id = id;
 	}
+
+	
 
 	
 }
